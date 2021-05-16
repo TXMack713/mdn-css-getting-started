@@ -1,0 +1,41 @@
+body {
+  background: rgb(158, 224, 219);
+}
+h1 {
+  color: red;
+}
+h1 + p {
+  /* Example of an adjancant sibling combinator */
+  font-size: 200%;
+}
+p,
+li {
+  color: black;
+}
+li {
+  list-style-type: decimal-leading-zero;
+}
+li.special,
+span.special {
+  color: orange;
+  font-weight: bold;
+}
+li em {
+  /* Example of a descendant combinator */
+  color: rebeccapurple;
+}
+p span.special {
+  /* Overriding the previous color styling of the span element */
+  color: red;
+}
+a:link {
+  color: orange;
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  text-decoration: none;
+  color: blueviolet;
+  font-weight: bold;
+}
