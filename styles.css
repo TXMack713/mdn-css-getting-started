@@ -36,7 +36,7 @@ a:visited {
 }
 a:hover {
   text-decoration: none;
-  color: blueviolet;
+  color: rgb(43, 128, 226);
   font-weight: bold;
 }
 body h1 + p .special {
