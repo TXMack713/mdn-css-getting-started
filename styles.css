@@ -1,12 +1,18 @@
 body {
   background: rgb(158, 224, 219);
+  font-size: medium;
+}
+@media (min-width: 600px){
+  body {
+    background-color: #9181ca;
+  }
 }
 h1 {
   color: red;
 }
 h1 + p {
   /* Example of an adjancant sibling combinator */
-  font-size: 200%;
+  font-size: large;
 }
 p,
 li {
